@@ -1,0 +1,30 @@
+{
+  "name": "webpack-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "prod": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GPFAFF/webpack-setup.git"
+  },
+  "author": "Greg Pfaff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GPFAFF/webpack-setup/issues"
+  },
+  "homepage": "https://github.com/GPFAFF/webpack-setup#readme",
+  "devDependencies": {
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-rc.0",
+    "html-webpack-plugin": "^2.28.0",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.1",
+    "scss-loader": "0.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1"
+  }
+}
